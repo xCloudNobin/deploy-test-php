@@ -1,0 +1,11 @@
+# Persistent data (never commit the SQLite file or its journal)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Runtime environment
+.env
+*.log
+
+.DS_Store
